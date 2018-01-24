@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="News360 Test Automation" verbose="1" >
+  <test name="News360 Test Automation TestCases" >
+    <classes>
+      <class name="com.news360.qa.testcases.LandingPageTest"/>
+      <class name="com.news360.qa.testcases.HomePageTest"/>
+      <class name="com.news360.qa.testcases.IntroPageTest"/>
+    </classes>
+ </test>
+</suite>

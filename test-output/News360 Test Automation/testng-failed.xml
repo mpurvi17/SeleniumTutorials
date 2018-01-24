@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [News360 Test Automation]">
+  <test name="News360 Test Automation TestCases(failed)">
+    <classes>
+      <class name="com.news360.qa.testcases.IntroPageTest">
+        <methods>
+          <include name="closeBrowserTest"/>
+          <include name="validateIntroPageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.news360.qa.testcases.IntroPageTest -->
+      <class name="com.news360.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="verifyHeaderTest"/>
+          <include name="navigateToHomePageTest"/>
+          <include name="setUp"/>
+          <include name="closeBrowserTest"/>
+          <include name="verifyImageTest"/>
+        </methods>
+      </class> <!-- com.news360.qa.testcases.LandingPageTest -->
+      <class name="com.news360.qa.testcases.HomePageTest">
+        <methods>
+          <include name="closeBrowserTest"/>
+          <include name="setUp"/>
+          <include name="verifyTitleinBoxTest"/>
+          <include name="HomePageURLTest"/>
+        </methods>
+      </class> <!-- com.news360.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- News360 Test Automation TestCases(failed) -->
+</suite> <!-- Failed suite [News360 Test Automation] -->
