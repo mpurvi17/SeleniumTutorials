@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20771" started-at="2018-01-24T17:06:49Z" finished-at="2018-01-24T17:07:09Z">
+  <suite name="Default suite" duration-ms="15075" started-at="2018-02-03T00:59:52Z" finished-at="2018-02-03T01:00:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20771" started-at="2018-01-24T17:06:49Z" finished-at="2018-01-24T17:07:09Z">
-      <class name="com.news360.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.news360.qa.testcases.HomePageTest@42e26948]" name="setUp" is-config="true" duration-ms="11480" started-at="2018-01-24T12:06:49Z" finished-at="2018-01-24T12:07:00Z">
+    <test name="Default test" duration-ms="15075" started-at="2018-02-03T00:59:52Z" finished-at="2018-02-03T01:00:07Z">
+      <class name="com.news360.qa.testcases.IntroPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.news360.qa.testcases.IntroPageTest@4f7d0008]" name="setUp" is-config="true" duration-ms="7451" started-at="2018-02-02T19:59:52Z" finished-at="2018-02-02T19:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="HomePageURLTest()[pri:1, instance:com.news360.qa.testcases.HomePageTest@42e26948]" name="HomePageURLTest" duration-ms="23" started-at="2018-01-24T12:07:00Z" finished-at="2018-01-24T12:07:00Z">
+        <test-method status="PASS" signature="validateCheckLinks()[pri:4, instance:com.news360.qa.testcases.IntroPageTest@4f7d0008]" name="validateCheckLinks" duration-ms="6932" started-at="2018-02-02T19:59:59Z" finished-at="2018-02-02T20:00:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePageURLTest -->
-        <test-method status="PASS" signature="closeBrowserTest()[pri:0, instance:com.news360.qa.testcases.HomePageTest@42e26948]" name="closeBrowserTest" is-config="true" duration-ms="758" started-at="2018-01-24T12:07:00Z" finished-at="2018-01-24T12:07:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowserTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.news360.qa.testcases.HomePageTest@42e26948]" name="setUp" is-config="true" duration-ms="5555" started-at="2018-01-24T12:07:01Z" finished-at="2018-01-24T12:07:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitleinBoxTest()[pri:2, instance:com.news360.qa.testcases.HomePageTest@42e26948]" name="verifyTitleinBoxTest" duration-ms="2132" started-at="2018-01-24T12:07:07Z" finished-at="2018-01-24T12:07:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitleinBoxTest -->
-        <test-method status="PASS" signature="closeBrowserTest()[pri:0, instance:com.news360.qa.testcases.HomePageTest@42e26948]" name="closeBrowserTest" is-config="true" duration-ms="766" started-at="2018-01-24T12:07:09Z" finished-at="2018-01-24T12:07:09Z">
+        </test-method> <!-- validateCheckLinks -->
+        <test-method status="PASS" signature="closeBrowserTest()[pri:0, instance:com.news360.qa.testcases.IntroPageTest@4f7d0008]" name="closeBrowserTest" is-config="true" duration-ms="663" started-at="2018-02-02T20:00:06Z" finished-at="2018-02-02T20:00:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserTest -->
-      </class> <!-- com.news360.qa.testcases.HomePageTest -->
+      </class> <!-- com.news360.qa.testcases.IntroPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

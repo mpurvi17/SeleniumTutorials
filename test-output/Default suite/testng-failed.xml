@@ -6,8 +6,8 @@
       <class name="com.news360.qa.testcases.IntroPageTest">
         <methods>
           <include name="closeBrowserTest"/>
-          <include name="validateIntroPageTest"/>
           <include name="setUp"/>
+          <include name="validateCheckLinks"/>
         </methods>
       </class> <!-- com.news360.qa.testcases.IntroPageTest -->
     </classes>

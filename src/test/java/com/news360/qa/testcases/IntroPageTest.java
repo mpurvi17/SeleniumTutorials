@@ -32,17 +32,44 @@ public class IntroPageTest extends TestBase {
 		hp = new HomePage();
 		System.out.println("from IntrpPageTest");
 		hp = lp.navigateToHomePage();
-
+		ip = new IntroPage();
 	}
 
-	@Test
+	@Test(priority=1)
 	public void validateIntroPageTest() throws IOException, InterruptedException {
-		ip = new IntroPage();
-
 		String t = ip.validateIntroPage();
 		Assert.assertEquals(t, "https://news360.com/intro");
 	}
 
+	
+	@Test(priority=2)
+	public void validateHeaderTopDesc() throws IOException, InterruptedException
+	{	
+		ip = hp.navigateToIntroPage();
+		String t=ip.headerTopDesc();
+		Assert.assertEquals(t, "First, choose how you want to log in to your News360 account");
+	}
+	
+	@Test(priority=3)
+	public void validatesubHeader() throws IOException, InterruptedException
+	{
+		ip = hp.navigateToIntroPage();
+		String t=ip.subHeader();
+		Assert.assertEquals(t, "(Don't worry, we will never post anything)");
+	}
+	
+	
+	@Test(priority=4)
+	public void validateCheckLinks() throws IOException, InterruptedException
+	{
+		ip = hp.navigateToIntroPage();
+		int x = ip.checkLinks();
+		Assert.assertEquals(x, 3);
+	}
+	
+	
+	
+	
 	@AfterMethod
 	public void closeBrowserTest() {
 		System.out.println("LandingPageTest: CloseBrowser Test");

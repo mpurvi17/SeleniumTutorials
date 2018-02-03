@@ -1,0 +1,7 @@
+com\news360\qa\pages\LandingPage.class
+com\news360\qa\pages\Personalize.class
+com\news360\qa\pages\HomePage.class
+com\news360\qa\pages\IntroPage.class
+com\news360\qa\TestBase\TestBase.class
+com\news360\qa\util\EventHandler.class
+com\news360\qa\util\UtilClass.class
